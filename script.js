@@ -24,7 +24,7 @@ showRandomWord();
 let i = 0;
 
 document.addEventListener('keydown', function(event) {
-    let element = wordContainer.querySelectorAll('span');
+    const element = wordContainer.querySelectorAll('span');
 
     if (event.key === element[i].textContent) {
         element[i].className = 'c';
