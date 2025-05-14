@@ -24,11 +24,7 @@ showRandomWord();
 let i = 0;
 
 document.addEventListener('keydown', function(event) {
-<<<<<<< Updated upstream
     const element = wordContainer.querySelectorAll('span');
-=======
-    let element = wordContainer.querySelectorAll('span');
->>>>>>> Stashed changes
 
     if (event.key === element[i].textContent) {
         element[i].className = 'c';
